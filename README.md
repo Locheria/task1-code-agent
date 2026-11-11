@@ -26,7 +26,7 @@ py -3.13 -m venv .venv
 
 ## 导出架构输入
 
-运行桌面程序时，通过界面选择老师提供的两份 Markdown。若要执行下列导出命令或运行使用这两份样例的测试，请先将 Architecture_Documentation.md 和 Architecture_View.md 放到项目根目录。
+运行桌面程序时，通过界面选择两份 Markdown。若要执行下列导出命令或运行使用这两份样例的测试，请先将 Architecture_Documentation.md 和 Architecture_View.md 放到项目根目录。
 
 ```powershell
 .\.venv\Scripts\python.exe -m app.inputs Architecture_Documentation.md Architecture_View.md docs/architecture_inputs.debug.json
