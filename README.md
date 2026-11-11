@@ -44,4 +44,3 @@ Agent 接入时可直接调用 `app.inputs.load_architecture_inputs(documentatio
 | `app/agent.py` | 规划、分批生成和修订 |
 | `app/output.py` | 校验路径、暂存和发布文件 |
 | `tests/` | Agent 测试 |
-| [调研记录](docs/research.md) | Claude Code 机制与本作业的实现对照 |
